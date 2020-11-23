@@ -18,7 +18,11 @@ CSP Gateway的安装会在IIS的工作目录“C:\Inetpub"下添加子目录CSPG
 1. 使用浏览器访问 http://localhost, 显示IIS的欢迎主页, 确认IIS已工作。
 2. 打开WebGateway-20201.1.xxxx-win_x64应用程序开始安装。安装时会提示用户输入连接的IRIS Server的IP地址和端口。默认的Application Name用CSP,IP地址端口使用localhost, 51773。安装过程会重启IIS服务，安装结束后用户不用手工重启。 
 
+<<<<<<< HEAD
    ![安装CSPGateway](pictures/csp_install.png)
+=======
+   ![安装CSP Gateway](./pictures/IIS_WebGatewayInstall.png)
+>>>>>>> 9655e14df9f6baf2622174cda68d72b66ca8e02c
 
    
 
@@ -28,13 +32,13 @@ CSP Gateway的安装会在IIS的工作目录“C:\Inetpub"下添加子目录CSPG
   - 打开IIS配置界面， 确认在Default Site下安装了CSP application. 
     在某些版本的Web Gateway安装后， /csp被安装为Virtual Directory, 关于IIS中application和virtual diectory的区别请自行查询， 无论安装成那种类型， 对csp的使用和配置没有区别。使用HealthConnect 2018以前版本的安装包安装的CSP Gateway生成CSP和ensemble两个Application。
 
-    ![IIS中CSP的配置](https://github.com/imess33/HCDemo/tree/master/MyNotes/Web%20Gateway_Draft/pictures/../../../../../../../../../pictures/IIS_WebGateway_MP.png)
+    ![IIS中CSP的配置](https://github.com/imess33/Documents/WebGateway/pictures/pictures/IIS_WebGateway_MP.png)
   
 4. 查看CSP Gateway登录页面。
 
 登录http://localhost/csp/bin/Systems/Module.cxw。 在主页上会显示Web Gateway的版本， Web Server Type是"Microseof-IIS"。配置文件和日志文件在c:\Inetpub\CSPGateway目录下。 (如果是打开时出现HTTP错误500.19, 你需要重启IIS)
 
-  ![CSP的配置的页面]((https://github.com/imess33/HCDemo/tree/master/MyNotes/Web%20Gateway_Draft/pictures/../../../../../../../../../pictures/IIS_CSP2.png))
+  ![CSP的配置的页面]((../pictures/IIS_CSP2.png))
 
 5. 查看连接的IRIS Server。
 
