@@ -18,7 +18,7 @@ CSP Gateway的安装会在IIS的工作目录“C:\Inetpub"下添加子目录CSPG
 1. 使用浏览器访问 http://localhost, 显示IIS的欢迎主页, 确认IIS已工作。
 2. 打开WebGateway-20201.1.xxxx-win_x64应用程序开始安装。安装时会提示用户输入连接的IRIS Server的IP地址和端口。默认的Application Name用CSP,IP地址端口使用localhost, 51773。安装过程会重启IIS服务，安装结束后用户不用手工重启。 
 
-   ![安装CSP Gateway](pictures/IIS_WebGatewayInstall.png)
+   ![安装CSPGateway](pictures/csp_install.png)
 
    
 
