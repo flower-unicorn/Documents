@@ -24,7 +24,7 @@ CSP Gateway的安装会在IIS的工作目录“C:\Inetpub"下添加子目录CSPG
   - 打开IIS配置界面， 确认在Default Site下安装了CSP application. 
     在某些版本的Web Gateway安装后， /csp被安装为Virtual Directory, 关于IIS中application和virtual diectory的区别请自行查询， 无论安装成那种类型， 对csp的使用和配置没有区别。使用HealthConnect 2018以前版本的安装包安装的CSP Gateway生成CSP和ensemble两个Application。
 
-    ![IIS中CSP的配置](https://github.com/imess33/Documents/WebGateway/pictures/pictures/IIS_WebGateway_MP.png)
+    ![IIS中CSP的配置](https://github.com/imess33/Documents/WebGateway/pictures/IIS_WebGateway_MP.png)
   
 4. 查看CSP Gateway登录页面。
 
